@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.20.110](https://github.com/brave/brave-browser/releases/tag/v1.20.110)
+
+ - [Security] Fixed issue when visiting ".onion" URL in a normal window would cause DNS leak. ([#14261](https://github.com/brave/brave-browser/issues/14261))
+ - Fixed crash when opening ".onion" link in certain cases on Linux. ([#13736](https://github.com/brave/brave-browser/issues/13736))
+ - Fixed ledger process incorrectly starting when visiting certain sites. ([#14307](https://github.com/brave/brave-browser/issues/14307))
+ - Upgraded Chromium to 88.0.4324.192. ([#14302](https://github.com/brave/brave-browser/issues/14302))
+
+## [1.20.108](https://github.com/brave/brave-browser/releases/tag/v1.20.108)
+
+ - [Security] Fixed DNS leak regression in Tor windows as reported on HackerOne by xiaoyinl. ([#13527](https://github.com/brave/brave-browser/issues/13527))
+ - [Security] Fixed ISP DNS leak when shields are enabled. ([#12575](https://github.com/brave/brave-browser/issues/12575))
+ - Removed "x-client-data" header from requests in certain cases. ([#8049](https://github.com/brave/brave-browser/issues/8049))
+ - Fixed crash when using OS zoom function on macOS in certain cases. ([#8149](https://github.com/brave/brave-browser/issues/8149))
+ - Fixed crash when using digital keyboard on macOS in certain cases. ([#7546](https://github.com/brave/brave-browser/issues/7546))
+ - Upgraded Chromium to 88.0.4324.182. ([#14187](https://github.com/brave/brave-browser/issues/14187))
+
 ## [1.20.103](https://github.com/brave/brave-browser/releases/tag/v1.20.103)
 
  - Added extension support for Tor windows. ([#2761](https://github.com/brave/brave-browser/issues/2761))
